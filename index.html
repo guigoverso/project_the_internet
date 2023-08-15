@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Internet History</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div>
+        <h1 class="color-blue center-text">The Internet History</h1>
+        <div>
+            <ul class="color-red padding-zero margin-zero empty-list-style horizontal-list center-text">
+                <li class="font-size-1-5em horizontal-padding-30px cursor-pointer" onclick="changeContent('1960')">Anos 1960</li>
+                <li class="font-size-1-5em horizontal-padding-30px cursor-pointer" onclick="changeContent('1970')">Anos 1970</li>
+                <li class="font-size-1-5em horizontal-padding-30px cursor-pointer" onclick="changeContent('1980')">Anos 1980</li>
+                <li class="font-size-1-5em horizontal-padding-30px cursor-pointer" onclick="changeContent('1990')">Anos 1990</li>
+                <li class="font-size-1-5em horizontal-padding-30px cursor-pointer" onclick="changeContent('2000')">Anos 2000</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h2 id="contentTitle" class="horizontal-padding-30px"></h2>
+        <p id="contentText" class="horizontal-padding-30px"></p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
